@@ -1,6 +1,6 @@
 # ✨ Vocab Adventure
 
-A free, kid-friendly SAT vocabulary trainer — flashcards, quizzes, pronunciation, and mistake tracking, all in one page. No install, no login, no ads.
+A free, kid-friendly vocabulary trainer — flashcards, quizzes, pronunciation, and mistake tracking, all in one page. No install, no login, no ads.
 
 **🔗 Try it now: [yangsy57272.github.io/vocab-adventure](https://yangsy57272.github.io/vocab-adventure/)**
 
