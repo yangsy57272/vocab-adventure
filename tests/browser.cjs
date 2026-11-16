@@ -56,7 +56,9 @@ const server = http.createServer((req, res) => {
     await page.evaluate(()=>{jumpToCard('abrupt');flipCard();});
     assert.match(await page.locator('#cardDetails').innerText(),/Related forms: adv. abruptly/);
     await page.evaluate(()=>{jumpToCard('in conjunction with');flipCard();});
+    assert.equal(await page.evaluate(()=>allWords.find(w=>w.w==='in conjunction with').en),'in addition to, alongside');
     await page.setViewportSize({width:390,height:844});
+    await page.clock.runFor(700);
     await page.screenshot({path:path.join(root,'test-results/barrons-mobile.png'),fullPage:true});
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
     assert.equal(await page.locator('#flashcard .card-back').evaluate(el=>el.scrollTop),0);

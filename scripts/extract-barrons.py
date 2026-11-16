@@ -59,6 +59,11 @@ for index, (start, lesson) in enumerate(starts):
         row_index = rows.index(chosen)
         definition_end = rows[row_index+1].start() if row_index+1 < len(rows) else len(before)
         definition = re.sub(r'\s+', ' ', before[chosen.start():definition_end]).strip().split('.', 1)[1].strip()
+        pos = chosen[1]
+        # Composite labels such as 'prep. ph.' and 'ph. v.' belong in POS.
+        while label := re.match(r'^(ph|v|prep)\.\s+', definition):
+            pos += '. '+label[1]
+            definition = definition[label.end():]
         forms = [re.sub(r'\s+', ' ', before[r.start():rows[j+1].start() if j+1<len(rows) else len(before)]).strip()
                  for j, r in enumerate(rows) if r is not chosen]
         after = block[synonym.end():].strip().splitlines()
@@ -68,7 +73,7 @@ for index, (start, lesson) in enumerate(starts):
         examples = re.sub(r'\s+', ' ', ' '.join(after)).strip()
         assert definition and syn and examples, (lesson, head, 'empty field')
         assert not re.search(r'MATCHING|MULTIPLE-CHOICE|\([A-D]\)', examples), (lesson, head, 'exercise leaked into examples')
-        words.append(dict(w=head, p=chosen[1], zh=definition, en=definition, s=3, d=lesson,
+        words.append(dict(w=head, p=pos, zh=definition, en=definition, s=3, d=lesson,
                           src='Barron’s · Essential Words for the TOEFL · 6th edition',
                           synonyms=syn, examples=examples, forms=forms,
                           pdfPage=start+bisect.bisect_right(page_starts, body_start+positions[i])))
