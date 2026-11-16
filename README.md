@@ -9,13 +9,14 @@ A free vocabulary trainer with a visual study dashboard, ready-to-study vocabula
 | Book | Entries | Focus |
 |---|---:|---|
 | SAT | 3,824 | Original collection and 20-day plan |
+| Barron’s TOEFL · 6th edition | 500 | Complete main vocabulary from the supplied PDF, all 30 lessons |
 | TOEFL · Academic & Science | 50 | Research, biology, earth science, history, campus life |
 | IELTS · Topics & Writing | 50 | Environment, education, health, technology, data descriptions |
 | Business · Workplace Essentials | 40 | Meetings, projects, finance, people |
 | Everyday · Travel & Conversation | 40 | Travel, accommodation, daily needs, conversation |
 | Academic English · NAWL | 958 | Official project's English definitions download, sets of 30 |
 
-The TOEFL and IELTS packs are original independent supplements, not official lists or copies of commercial books. The library also links to Barron's *TOEFL Essential Words* and Pauline Cullen's *Cambridge Vocabulary for IELTS* for further study. [Sources, licenses, and the NAWL download count](data/SOURCES.md).
+The **Barron’s** book contains all 500 lesson headwords extracted from the user-provided sixth-edition PDF, including English definitions, synonyms, related forms, and examples on the back of each flashcard. Original lessons and source page numbers are retained. The publisher copyright is retained; this dataset is not licensed under Creative Commons. The original 50-word TOEFL and IELTS topic packs remain separate independent supplements. The library also links to Barron's *TOEFL Essential Words* and Pauline Cullen's *Cambridge Vocabulary for IELTS* for further study. [Sources, licenses, and the NAWL download count](data/SOURCES.md).
 
 ## Visual dashboard and review
 
@@ -72,5 +73,7 @@ npm test
 ```
 
 For an installed Google Chrome browser, use `BROWSER_CHANNEL=chrome npm test`. The browser suite starts its own local server, exercises storage and review scheduling, and saves desktop/mobile screenshots under ignored `test-results/`.
+
+Re-extract the supplied sixth-edition PDF with `python3 scripts/extract-barrons.py /path/to/book.pdf` (requires `pypdf`). The extractor checks every lesson-opening list against its definitions, with 500 unique main entries required; exercises and unrelated running-text words are excluded. The PDF itself is not copied to the repository.
 
 Regenerate bundled vocabulary from checked-in sources with `python3 scripts/build-books.py`. The original SAT dataset is preserved in `index.html`; the new built-in books are in `data/books.js`, and dashboard / review logic is in `dashboard.js`.

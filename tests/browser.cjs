@@ -20,19 +20,20 @@ const server = http.createServer((req, res) => {
     const context = await browser.newContext({ timezoneId: 'Asia/Shanghai', viewport: {width: 1280, height: 900} });
     const page = await context.newPage();
     await page.clock.install({time: new Date('2026-11-16T04:00:00Z')});
+    fs.mkdirSync(path.join(root,'test-results'),{recursive:true});
     const errors = [];
     page.on('pageerror', e => errors.push(e.message));
     page.on('dialog', d => d.accept());
     await page.goto(`http://127.0.0.1:${server.address().port}`);
     assert.equal(await page.locator('#vocabCount').innerText(), '3824');
-    assert.equal(await page.locator('#bookSelect option').count(), 6);
+    assert.equal(await page.locator('#bookSelect option').count(), 7);
     assert.equal(await page.locator('#activityGrid button').count(), 28);
     assert.equal(await page.locator('#accuracyChart .chart-col').count(), 7);
     assert.equal(await page.locator('#screen-progress').getAttribute('class'), 'screen active');
     await page.evaluate(() => {knownWords.add('refute');save();});
     await page.getByRole('button', {name:'📚 Book Library',exact:true}).click();
-    assert.equal(await page.locator('.library-card').count(), 6);
-    for (const [id, count] of [['toefl',50],['ielts',50],['business',40],['everyday',40],['nawl',958]]) {
+    assert.equal(await page.locator('.library-card').count(), 7);
+    for (const [id, count] of [['barrons-toefl',500],['toefl',50],['ielts',50],['business',40],['everyday',40],['nawl',958]]) {
       await page.selectOption('#bookSelect', id);
       assert.equal(await page.locator('#vocabCount').innerText(), String(count));
       await page.evaluate(() => deleteBook());
@@ -40,6 +41,27 @@ const server = http.createServer((req, res) => {
       await page.evaluate(() => {document.getElementById('importText').value='extra | meaning';importVocab();});
       assert.match(await page.locator('#importStatus').innerText(), /protected/);
     }
+    await page.selectOption('#bookSelect','barrons-toefl');
+    assert.equal(await page.locator('#dayPills button').count(),31);
+    assert.equal(await page.evaluate(()=>allWords.filter(w=>w.d===1).length),17);
+    assert.equal(await page.evaluate(()=>allWords.filter(w=>w.d===30).length),16);
+    assert.equal(await page.evaluate(()=>allWords[499].w),'woo');
+    assert.equal(await page.evaluate(()=>allWords.find(w=>w.w==='partially').en),'a part of the whole; incomplete');
+    assert.equal(await page.evaluate(()=>allWords.find(w=>w.w==='oblivious').en),'to be unaware of or forgetful');
+    assert.equal(await page.evaluate(()=>allWords.find(w=>w.w==='severe').en),'extreme; harmful');
+    assert.equal(await page.locator('.library-card').filter({hasText:'All 500 Words'}).locator('a').count(),0,'publisher data is not marked Creative Commons');
+    await page.evaluate(()=>{setDay(1);showScreen('flashcard');flipCard();});
+    assert.match(await page.locator('#cardDetails').innerText(),/Synonyms: overseas; internationally/);
+    assert.match(await page.locator('#cardDetails').innerText(),/Louis Armstrong/);
+    await page.evaluate(()=>{jumpToCard('abrupt');flipCard();});
+    assert.match(await page.locator('#cardDetails').innerText(),/Related forms: adv. abruptly/);
+    await page.evaluate(()=>{jumpToCard('in conjunction with');flipCard();});
+    await page.setViewportSize({width:390,height:844});
+    await page.screenshot({path:path.join(root,'test-results/barrons-mobile.png'),fullPage:true});
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+    assert.equal(await page.locator('#flashcard .card-back').evaluate(el=>el.scrollTop),0);
+    await page.setViewportSize({width:1280,height:900});
+    await page.reload();assert.equal(await page.locator('#bookSelect').inputValue(),'barrons-toefl');
     await page.selectOption('#bookSelect','toefl');
     await page.reload();assert.equal(await page.locator('#bookSelect').inputValue(),'toefl');
     // Spaced repetition, local dates, same-day repeat protection, and daily uniqueness.
@@ -102,6 +124,6 @@ const server = http.createServer((req, res) => {
     await page.evaluate(()=>localStorage.setItem('sat_imported',JSON.stringify([{w:'legacyword',p:'',zh:'old import',en:'',s:3,d:21,custom:true}])));
     await page.reload();assert.equal(await page.locator('#vocabCount').innerText(),'3825');
     assert.deepEqual(errors,[]);
-    console.log('PASS: six built-in books; licenses and protected imports; preserved SAT data; local-date scheduling; repeated-recall protection; goals, streaks and charts; due quizzes; custom TSV imports and export; persistent progress; deletion; four mobile screens; no browser errors.');
+    console.log('PASS: seven built-in books including all 500 Barron’s entries and 30 lessons; meanings, synonyms, related forms, examples; licenses and protected imports; preserved SAT data; local-date scheduling; repeated-recall protection; goals, streaks and charts; due quizzes; custom TSV imports and export; persistent progress; deletion; four mobile screens; no browser errors.');
   } finally {await browser.close();}
 })().catch(error=>{console.error(error);process.exitCode=1;}).finally(()=>server.close());

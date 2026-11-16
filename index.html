@@ -83,6 +83,10 @@ const DAY_SCHED={"1":{"date":"07/28","dow":"周二","mins":"约 60 分钟","revi
   .card-front{background:linear-gradient(135deg,#fff,#f0e6ff);border:3px solid var(--purple-light)}
   .card-back{background:linear-gradient(135deg,#fff,#e6f9f0);border:3px solid var(--green);transform:rotateY(180deg)}
   .card-spacer{display:none}
+  .card-back:has(.card-details:not(:empty)){justify-content:flex-start}
+  .card-back:has(.card-details:not(:empty))>*{flex-shrink:0}
+  .card-details{font-size:.85rem;line-height:1.55;text-align:left;width:100%;overflow-wrap:anywhere}
+  .card-details p{margin:10px 0}
   .word-row{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
   .word-display{font-size:2.6rem;font-weight:900;color:var(--purple);letter-spacing:-1px;line-height:1.15}
   .speak-btn{border:none;background:var(--purple-light);color:#fff;border-radius:999px;width:44px;height:44px;
@@ -350,6 +354,7 @@ const DAY_SCHED={"1":{"date":"07/28","dow":"周二","mins":"约 60 分钟","revi
           <div class="def-zh" id="cardZh">—</div>
           <div class="def-en" id="cardEn"></div>
           <button class="speak-btn" id="speakBack" onclick="event.stopPropagation();speakCurrent()" style="width:auto;padding:8px 18px;border-radius:999px;font-size:.88rem;font-weight:700">🔊 Hear it again</button>
+          <div id="cardDetails" class="card-details"></div>
           <div class="src-line" id="cardSrc"></div>
         </div>
       </div>
@@ -475,13 +480,13 @@ const DAY_SCHED={"1":{"date":"07/28","dow":"周二","mins":"约 60 分钟","revi
   <div id="screen-library" class="screen">
     <div class="panel">
       <h3>📚 Find your next vocabulary book</h3>
-      <p class="hint">Built-in books are ready to study. Choose a short topic pack or a full academic collection, or create your own in My Books & Import.</p>
+      <p class="hint">Built-in books are ready to study. Choose a short topic pack the complete Barron’s TOEFL collection, or a full academic collection, or create your own in My Books & Import.</p>
       <p class="muted">TOEFL and IELTS topic packs below are original, independent practice supplements. They are not official exam lists or copies of commercial textbooks.</p>
     </div>
     <div id="libraryGrid" class="library-grid"></div>
     <div class="panel">
       <h3>🔗 Books to use alongside the app</h3>
-      <p class="hint">Publisher / author resources researched November 2026. These are external books; their text is not bundled here.</p>
+      <p class="hint">Publisher / author resources researched November 2026. These are companion resources; the links may refer to editions different from your imported PDF.</p>
       <p class="source-note"><a href="https://www.simonandschuster.com/books/TOEFL-Essential-Words-Eighth-Edition/Steven-J-Matthiesen/Barrons-Test-Prep/9781506290577" target="_blank" rel="noopener">Barron’s TOEFL Essential Words, 8th edition · Steven J. Matthiesen</a> — a 500-word vocabulary workbook with practice exercises.</p>
       <p class="source-note" style="margin-top:12px"><a href="https://keytoielts.com/product/cambridge-vocabulary-for-ielts/" target="_blank" rel="noopener">Cambridge Vocabulary for IELTS · Pauline Cullen</a> — vocabulary in topic-based exam practice, including reading, listening, speaking and writing.</p>
       <p class="source-note" style="margin-top:12px"><a href="https://www.newgeneralservicelist.com/word-lists" target="_blank" rel="noopener">Explore NGSL Project word lists</a> — useful next additions include general English (NGSL), spoken English (NGSL-S), business (BSL), and TOEIC (TSL).</p>
@@ -668,7 +673,7 @@ function buildFilters(){
     days.map(d=>{
       const dw = allWords.filter(w=>w.d===d);
       const done = dw.length && dw.every(w=>knownWords.has(w.w));
-      return `<button class="day-pill ${currentDay===d?'active':''} ${done?'done':''}" onclick="setDay(${d})">${currentBook!=='sat'?'Set '+d:(d===21?'Bonus':'D'+d)}</button>`;
+      return `<button class="day-pill ${currentDay===d?'active':''} ${done?'done':''}" onclick="setDay(${d})">${currentBook==='barrons-toefl'?'Lesson '+d:currentBook!=='sat'?'Set '+d:(d===21?'Bonus':'D'+d)}</button>`;
     }).join('');
 
   const inDay = allWords.filter(w=>currentDay==='all'||w.d===currentDay);
@@ -750,6 +755,7 @@ function renderCard(){
     document.getElementById('cardZh').textContent = hideKnown ? 'All words here are marked known!' : 'No words match this filter.';
     document.getElementById('cardEn').textContent='';
     document.getElementById('cardSrc').textContent='';
+    document.getElementById('cardDetails').replaceChildren();
     document.getElementById('cardCounter').textContent='0 / 0';
     return;
   }
@@ -759,8 +765,12 @@ function renderCard(){
   document.getElementById('cardStars').textContent = starStr(w.s);
   document.getElementById('cardZh').textContent = w.zh;
   document.getElementById('cardEn').textContent = w.en || '';
-  document.getElementById('cardEn').style.display = w.en ? 'block':'none';
-  document.getElementById('cardSrc').textContent = (currentBook!=='sat'?(w.topic || allBookEntries().find(b=>b.id===currentBook).name):(w.d===21?'Bonus import':'Day '+w.d)) + (w.src? ' · '+w.src : '');
+  document.getElementById('cardEn').style.display = w.en && w.en!==w.zh ? 'block':'none';
+  document.getElementById('cardDetails').innerHTML =
+    (w.synonyms?`<p><strong>Synonyms:</strong> ${esc(w.synonyms)}</p>`:'') +
+    (w.forms?.length?`<p><strong>Related forms:</strong> ${esc(w.forms.join(' · '))}</p>`:'') +
+    (w.examples?`<p><strong>Examples:</strong> ${esc(w.examples)}</p>`:'');
+  document.getElementById('cardSrc').textContent = (currentBook!=='sat'?(w.topic || (currentBook==='barrons-toefl'?'Lesson '+w.d+' · PDF page '+w.pdfPage:allBookEntries().find(b=>b.id===currentBook).name)):(w.d===21?'Bonus import':'Day '+w.d)) + (w.src? ' · '+w.src : '');
   document.getElementById('cardCounter').textContent = (cardIndex+1)+' / '+ws.length;
   document.getElementById('flashcard').classList.toggle('flipped', cardFlipped);
   const kb = document.getElementById('knownBtn'), isK = knownWords.has(w.w);
@@ -1048,7 +1058,7 @@ function renderWordList(){
       ${w.p?`<span class="wi-pos">${esc(w.p)}</span>`:''}
       <span class="wi-stars">${starStr(w.s)}</span>
       <span class="wi-zh">${esc(w.zh)}</span>
-      <span class="wi-day">${currentBook!=='sat'?'Set '+w.d:(w.d===21?'Bonus':'D'+w.d)}</span>
+      <span class="wi-day">${currentBook==='barrons-toefl'?'Lesson '+w.d:currentBook!=='sat'?'Set '+w.d:(w.d===21?'Bonus':'D'+w.d)}</span>
       <span class="wi-known">${knownWords.has(w.w)?'✅':''}</span>
       ${w.custom?`<button class="wi-btn wi-delete" title="Delete" onclick="event.stopPropagation();deleteWord('${jsEsc(w.w)}')">✕</button>`:''}
     </div>`).join('');
@@ -1073,9 +1083,9 @@ function renderProgressScreen(){
     const pct=dw.length?Math.round(100*k/dw.length):0;
     const s=currentBook==='sat'?DAY_SCHED[d]:null;
     return `<div class="stat-card" style="cursor:pointer" onclick="setDay(${d});showScreen('flashcard')">
-      <div class="d">${currentBook!=='sat'?'Set '+d:(d===21?'Bonus':'Day '+d)}</div>
+      <div class="d">${currentBook==='barrons-toefl'?'Lesson '+d:currentBook!=='sat'?'Set '+d:(d===21?'Bonus':'Day '+d)}</div>
       <div class="n">${dw.length}</div>
-      <div style="font-size:.7rem;color:var(--text-muted)">${s?'SAT study plan':esc(dw[0]?.topic || 'Study set')}</div>
+      <div style="font-size:.7rem;color:var(--text-muted)">${s?'SAT study plan':esc(dw[0]?.topic || (currentBook==='barrons-toefl'?'Barron’s · 6th edition':'Study set'))}</div>
       <div class="k">${k} known · ${pct}%</div>
       <div class="bar"><i style="width:${pct}%"></i></div>
     </div>`;

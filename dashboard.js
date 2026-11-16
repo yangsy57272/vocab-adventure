@@ -57,7 +57,7 @@ function renderLibrary() {
   document.getElementById('libraryGrid').innerHTML=entries.map(book=>`<article class="panel library-card">
     <h3>${esc(book.name)}</h3><strong>${book.words.length.toLocaleString()} words ${book.id===currentBook?'· Selected':''}</strong>
     <p class="muted">${esc(book.description||'Your personal vocabulary collection.')}</p>
-    ${book.credit?`<p class="source-note">${esc(book.credit)} <a href="${esc(book.source)}" target="_blank" rel="noopener">Source</a> · <a href="https://creativecommons.org/licenses/${book.license==='CC BY-SA 4.0'?'by-sa':'by'}/4.0/" target="_blank" rel="noopener">${esc(book.license)}</a></p>`:''}
+    ${book.credit?`<p class="source-note">${esc(book.credit)}${book.source?` <a href="${esc(book.source)}" target="_blank" rel="noopener">Source</a>`:''}${book.license?` · <a href="https://creativecommons.org/licenses/${book.license==='CC BY-SA 4.0'?'by-sa':'by'}/4.0/" target="_blank" rel="noopener">${esc(book.license)}</a>`:''}</p>`:''}
     <button class="tool-btn" onclick="switchBook('${jsEsc(book.id)}');showScreen('flashcard')">Study this book →</button>
   </article>`).join('');
 }

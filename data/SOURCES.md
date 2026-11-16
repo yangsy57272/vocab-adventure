@@ -1,6 +1,15 @@
 # Vocabulary sources and reuse
 
-Checked 16 November 2026. No commercial textbook content is reproduced.
+Checked 16 November 2026. The Barron’s collection below is transformed from a PDF supplied by the user. It is separate from the openly licensed and original datasets.
+
+## Barron’s Essential Words for the TOEFL, sixth edition
+
+- Author: Steven J. Matthiesen; Barron’s Educational Series. The supplied cover identifies this as the sixth edition, rather than the eighth edition linked in the companion resources.
+- Source: PDF supplied by the user in this chat. Its SHA-256 digest is recorded in `barrons-toefl.json`; the original PDF is not uploaded to the repository.
+- Scope: every main entry in the 30 lesson-opening bullet lists: 17 per lesson for lessons 1–20 and 16 per lesson for lessons 21–30, totaling 500 unique headwords and phrases. Related forms, synonyms, and example sentences are included as details, not counted as extra main entries. Exercise distractors and other running-text words are not treated as vocabulary entries.
+- Extraction: `scripts/extract-barrons.py`. Original lessons and PDF entry-page references are retained; whitespace is normalized. Four explicitly identified primary-definition rows prevent related-form rows from replacing the actual definitions. Source wording is otherwise retained.
+- Copyright: original publisher/author copyright retained. **No Creative Commons license is asserted for this dataset.** The licenses below apply only to their respective datasets.
+
 
 ## New Academic Word List (NAWL)
 

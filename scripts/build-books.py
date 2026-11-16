@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-packs = json.loads((ROOT / 'data/curated-books.json').read_text())
+packs = [json.loads((ROOT / 'data/barrons-toefl.json').read_text()), *json.loads((ROOT / 'data/curated-books.json').read_text())]
 words, seen = [], set()
 with (ROOT / 'data/nawl-source.csv').open(encoding='utf-8-sig', newline='') as source:
     for row in csv.DictReader(source):
