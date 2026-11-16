@@ -1,0 +1,1842 @@
+[
+  {
+    "id": "toefl",
+    "name": "TOEFL · Academic & Science",
+    "description": "50 original practice words for academic reading and lectures. Independent study supplement; not an official ETS list.",
+    "license": "CC BY 4.0",
+    "credit": "Original selection and definitions by Vocab Adventure (2026).",
+    "source": "https://github.com/yangsy57272/vocab-adventure",
+    "words": [
+      {
+        "w": "hypothesis",
+        "p": "",
+        "zh": "A proposed explanation that can be tested.",
+        "en": "A proposed explanation that can be tested.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "evidence",
+        "p": "",
+        "zh": "Information that supports or challenges a claim.",
+        "en": "Information that supports or challenges a claim.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "inference",
+        "p": "",
+        "zh": "A conclusion drawn from available information.",
+        "en": "A conclusion drawn from available information.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "variable",
+        "p": "",
+        "zh": "A factor that can change in a study.",
+        "en": "A factor that can change in a study.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "correlation",
+        "p": "",
+        "zh": "A relationship in which two things change together.",
+        "en": "A relationship in which two things change together.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "causation",
+        "p": "",
+        "zh": "The process by which one event produces another.",
+        "en": "The process by which one event produces another.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "empirical",
+        "p": "",
+        "zh": "Based on observation or experiment.",
+        "en": "Based on observation or experiment.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "replicate",
+        "p": "",
+        "zh": "To repeat a study to check its findings.",
+        "en": "To repeat a study to check its findings.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "validity",
+        "p": "",
+        "zh": "How well a method measures what it intends to measure.",
+        "en": "How well a method measures what it intends to measure.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "peer review",
+        "p": "",
+        "zh": "Evaluation of research by experts in the same field.",
+        "en": "Evaluation of research by experts in the same field.",
+        "s": 3,
+        "d": 1,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Research"
+      },
+      {
+        "w": "ecosystem",
+        "p": "",
+        "zh": "Living things and their physical surroundings interacting as a system.",
+        "en": "Living things and their physical surroundings interacting as a system.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "biodiversity",
+        "p": "",
+        "zh": "The variety of living things in an area.",
+        "en": "The variety of living things in an area.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "adaptation",
+        "p": "",
+        "zh": "A feature or change that helps an organism survive.",
+        "en": "A feature or change that helps an organism survive.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "habitat",
+        "p": "",
+        "zh": "The natural place where an organism lives.",
+        "en": "The natural place where an organism lives.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "photosynthesis",
+        "p": "",
+        "zh": "The process plants use to turn light into chemical energy.",
+        "en": "The process plants use to turn light into chemical energy.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "organism",
+        "p": "",
+        "zh": "An individual living thing.",
+        "en": "An individual living thing.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "symbiosis",
+        "p": "",
+        "zh": "A close relationship between organisms of different species.",
+        "en": "A close relationship between organisms of different species.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "extinction",
+        "p": "",
+        "zh": "The disappearance of every member of a species.",
+        "en": "The disappearance of every member of a species.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "predator",
+        "p": "",
+        "zh": "An animal that hunts other animals for food.",
+        "en": "An animal that hunts other animals for food.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "conservation",
+        "p": "",
+        "zh": "The protection and careful management of natural resources.",
+        "en": "The protection and careful management of natural resources.",
+        "s": 3,
+        "d": 2,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Biology"
+      },
+      {
+        "w": "erosion",
+        "p": "",
+        "zh": "The wearing away of rock or soil by water, wind, or ice.",
+        "en": "The wearing away of rock or soil by water, wind, or ice.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "sediment",
+        "p": "",
+        "zh": "Small particles deposited by water, wind, or ice.",
+        "en": "Small particles deposited by water, wind, or ice.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "tectonic",
+        "p": "",
+        "zh": "Related to large-scale movement of the Earth's outer layers.",
+        "en": "Related to large-scale movement of the Earth's outer layers.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "fossil",
+        "p": "",
+        "zh": "Preserved evidence of life from the distant past.",
+        "en": "Preserved evidence of life from the distant past.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "atmosphere",
+        "p": "",
+        "zh": "The layer of gases surrounding a planet.",
+        "en": "The layer of gases surrounding a planet.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "precipitation",
+        "p": "",
+        "zh": "Water falling from clouds as rain, snow, or hail.",
+        "en": "Water falling from clouds as rain, snow, or hail.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "climate",
+        "p": "",
+        "zh": "The typical weather patterns of a region over many years.",
+        "en": "The typical weather patterns of a region over many years.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "glacier",
+        "p": "",
+        "zh": "A large body of ice that moves slowly over land.",
+        "en": "A large body of ice that moves slowly over land.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "renewable",
+        "p": "",
+        "zh": "Naturally replenished on a human timescale.",
+        "en": "Naturally replenished on a human timescale.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "stratum",
+        "p": "",
+        "zh": "A layer of rock or other material.",
+        "en": "A layer of rock or other material.",
+        "s": 3,
+        "d": 3,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Earth science"
+      },
+      {
+        "w": "artifact",
+        "p": "",
+        "zh": "An object made or altered by people.",
+        "en": "An object made or altered by people.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "excavation",
+        "p": "",
+        "zh": "Careful digging to uncover buried objects or structures.",
+        "en": "Careful digging to uncover buried objects or structures.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "chronology",
+        "p": "",
+        "zh": "The order in which events happened.",
+        "en": "The order in which events happened.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "civilization",
+        "p": "",
+        "zh": "A society with organized institutions and a shared culture.",
+        "en": "A society with organized institutions and a shared culture.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "migration",
+        "p": "",
+        "zh": "Movement from one region to another.",
+        "en": "Movement from one region to another.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "archaeology",
+        "p": "",
+        "zh": "The study of past human life through physical remains.",
+        "en": "The study of past human life through physical remains.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "commerce",
+        "p": "",
+        "zh": "The activity of buying and selling goods or services.",
+        "en": "The activity of buying and selling goods or services.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "institution",
+        "p": "",
+        "zh": "An established organization or social practice.",
+        "en": "An established organization or social practice.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "innovation",
+        "p": "",
+        "zh": "A new idea or method put into use.",
+        "en": "A new idea or method put into use.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "urbanization",
+        "p": "",
+        "zh": "The growth of cities and the share of people living in them.",
+        "en": "The growth of cities and the share of people living in them.",
+        "s": 3,
+        "d": 4,
+        "src": "TOEFL · Academic & Science",
+        "topic": "History"
+      },
+      {
+        "w": "prerequisite",
+        "p": "",
+        "zh": "Something required before another activity can begin.",
+        "en": "Something required before another activity can begin.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      },
+      {
+        "w": "syllabus",
+        "p": "",
+        "zh": "An outline of a course and its requirements.",
+        "en": "An outline of a course and its requirements.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      },
+      {
+        "w": "seminar",
+        "p": "",
+        "zh": "A small class focused on discussion.",
+        "en": "A small class focused on discussion.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      },
+      {
+        "w": "thesis",
+        "p": "",
+        "zh": "A central argument or an extended research paper.",
+        "en": "A central argument or an extended research paper.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      },
+      {
+        "w": "transcript",
+        "p": "",
+        "zh": "An official record of a student's courses and grades.",
+        "en": "An official record of a student's courses and grades.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      },
+      {
+        "w": "credit",
+        "p": "",
+        "zh": "A unit used to measure completed academic study.",
+        "en": "A unit used to measure completed academic study.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      },
+      {
+        "w": "advisor",
+        "p": "",
+        "zh": "A person who offers guidance on academic choices.",
+        "en": "A person who offers guidance on academic choices.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      },
+      {
+        "w": "enrollment",
+        "p": "",
+        "zh": "The process of officially joining a course or institution.",
+        "en": "The process of officially joining a course or institution.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      },
+      {
+        "w": "tuition",
+        "p": "",
+        "zh": "The money charged for teaching at an institution.",
+        "en": "The money charged for teaching at an institution.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      },
+      {
+        "w": "residence hall",
+        "p": "",
+        "zh": "A building where students live on campus.",
+        "en": "A building where students live on campus.",
+        "s": 3,
+        "d": 5,
+        "src": "TOEFL · Academic & Science",
+        "topic": "Campus life"
+      }
+    ]
+  },
+  {
+    "id": "ielts",
+    "name": "IELTS · Topics & Writing",
+    "description": "50 original words and phrases for discussing common topics and describing change. Independent practice; not a Cambridge or official IELTS word list.",
+    "license": "CC BY 4.0",
+    "credit": "Original selection and definitions by Vocab Adventure (2026).",
+    "source": "https://github.com/yangsy57272/vocab-adventure",
+    "words": [
+      {
+        "w": "sustainable",
+        "p": "",
+        "zh": "Able to continue without exhausting resources or causing lasting damage.",
+        "en": "Able to continue without exhausting resources or causing lasting damage.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "emissions",
+        "p": "",
+        "zh": "Gases or particles released into the air.",
+        "en": "Gases or particles released into the air.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "carbon footprint",
+        "p": "",
+        "zh": "The greenhouse gases associated with a person, activity, or product.",
+        "en": "The greenhouse gases associated with a person, activity, or product.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "renewable energy",
+        "p": "",
+        "zh": "Energy from sources that naturally replenish, such as sunlight.",
+        "en": "Energy from sources that naturally replenish, such as sunlight.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "landfill",
+        "p": "",
+        "zh": "A site where waste is buried.",
+        "en": "A site where waste is buried.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "recycle",
+        "p": "",
+        "zh": "To process used material so it can be used again.",
+        "en": "To process used material so it can be used again.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "congestion",
+        "p": "",
+        "zh": "Overcrowding that slows movement, especially on roads.",
+        "en": "Overcrowding that slows movement, especially on roads.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "public transport",
+        "p": "",
+        "zh": "Shared travel services available to the public.",
+        "en": "Shared travel services available to the public.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "commute",
+        "p": "",
+        "zh": "To travel regularly between home and work or study.",
+        "en": "To travel regularly between home and work or study.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "infrastructure",
+        "p": "",
+        "zh": "The basic systems that allow a place to function.",
+        "en": "The basic systems that allow a place to function.",
+        "s": 3,
+        "d": 1,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Environment & cities"
+      },
+      {
+        "w": "curriculum",
+        "p": "",
+        "zh": "The subjects and content taught in a course of study.",
+        "en": "The subjects and content taught in a course of study.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "literacy",
+        "p": "",
+        "zh": "The ability to read and write.",
+        "en": "The ability to read and write.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "vocational",
+        "p": "",
+        "zh": "Related to training for a particular job.",
+        "en": "Related to training for a particular job.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "distance learning",
+        "p": "",
+        "zh": "Study in which teachers and learners are in different places.",
+        "en": "Study in which teachers and learners are in different places.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "tuition fees",
+        "p": "",
+        "zh": "Charges paid for teaching at a school or university.",
+        "en": "Charges paid for teaching at a school or university.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "qualification",
+        "p": "",
+        "zh": "A credential showing that someone has completed training.",
+        "en": "A credential showing that someone has completed training.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "critical thinking",
+        "p": "",
+        "zh": "Careful examination of reasons and evidence before forming a judgment.",
+        "en": "Careful examination of reasons and evidence before forming a judgment.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "assessment",
+        "p": "",
+        "zh": "The process of judging performance or progress.",
+        "en": "The process of judging performance or progress.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "lifelong learning",
+        "p": "",
+        "zh": "Continued learning throughout a person's life.",
+        "en": "Continued learning throughout a person's life.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "scholarship",
+        "p": "",
+        "zh": "Financial support awarded to help someone study.",
+        "en": "Financial support awarded to help someone study.",
+        "s": 3,
+        "d": 2,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Education"
+      },
+      {
+        "w": "sedentary",
+        "p": "",
+        "zh": "Involving much sitting and little physical movement.",
+        "en": "Involving much sitting and little physical movement.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "balanced diet",
+        "p": "",
+        "zh": "A pattern of eating that provides a suitable range of nutrients.",
+        "en": "A pattern of eating that provides a suitable range of nutrients.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "preventive care",
+        "p": "",
+        "zh": "Health care intended to stop illness before it develops.",
+        "en": "Health care intended to stop illness before it develops.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "well-being",
+        "p": "",
+        "zh": "A person's overall state of health and contentment.",
+        "en": "A person's overall state of health and contentment.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "life expectancy",
+        "p": "",
+        "zh": "The average number of years people are expected to live.",
+        "en": "The average number of years people are expected to live.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "affordable housing",
+        "p": "",
+        "zh": "Housing people can pay for without excessive financial strain.",
+        "en": "Housing people can pay for without excessive financial strain.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "inequality",
+        "p": "",
+        "zh": "Unequal access to resources, opportunities, or treatment.",
+        "en": "Unequal access to resources, opportunities, or treatment.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "community",
+        "p": "",
+        "zh": "People connected by place, interests, or shared circumstances.",
+        "en": "People connected by place, interests, or shared circumstances.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "public services",
+        "p": "",
+        "zh": "Services provided for the benefit of the public.",
+        "en": "Services provided for the benefit of the public.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "work-life balance",
+        "p": "",
+        "zh": "A manageable division between work and personal life.",
+        "en": "A manageable division between work and personal life.",
+        "s": 3,
+        "d": 3,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Health & society"
+      },
+      {
+        "w": "automation",
+        "p": "",
+        "zh": "The use of technology to carry out tasks with little human input.",
+        "en": "The use of technology to carry out tasks with little human input.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "digital literacy",
+        "p": "",
+        "zh": "The ability to use and evaluate digital tools and information.",
+        "en": "The ability to use and evaluate digital tools and information.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "privacy",
+        "p": "",
+        "zh": "Control over access to one's personal life or information.",
+        "en": "Control over access to one's personal life or information.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "misinformation",
+        "p": "",
+        "zh": "False or inaccurate information, whether or not intended to deceive.",
+        "en": "False or inaccurate information, whether or not intended to deceive.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "remote work",
+        "p": "",
+        "zh": "Work performed away from an employer's usual workplace.",
+        "en": "Work performed away from an employer's usual workplace.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "innovation",
+        "p": "",
+        "zh": "The practical introduction of a new idea, method, or product.",
+        "en": "The practical introduction of a new idea, method, or product.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "accessibility",
+        "p": "",
+        "zh": "How easily people with different needs can use something.",
+        "en": "How easily people with different needs can use something.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "consumer",
+        "p": "",
+        "zh": "A person who buys or uses goods or services.",
+        "en": "A person who buys or uses goods or services.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "globalization",
+        "p": "",
+        "zh": "Increasing connections between countries and their economies.",
+        "en": "Increasing connections between countries and their economies.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "cultural heritage",
+        "p": "",
+        "zh": "Traditions, objects, and places passed down from earlier generations.",
+        "en": "Traditions, objects, and places passed down from earlier generations.",
+        "s": 3,
+        "d": 4,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Technology & culture"
+      },
+      {
+        "w": "fluctuate",
+        "p": "",
+        "zh": "To rise and fall repeatedly.",
+        "en": "To rise and fall repeatedly.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      },
+      {
+        "w": "plateau",
+        "p": "",
+        "zh": "To stop rising or falling and remain at a similar level.",
+        "en": "To stop rising or falling and remain at a similar level.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      },
+      {
+        "w": "proportion",
+        "p": "",
+        "zh": "A part considered in relation to the whole.",
+        "en": "A part considered in relation to the whole.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      },
+      {
+        "w": "respectively",
+        "p": "",
+        "zh": "In the same order as the items already mentioned.",
+        "en": "In the same order as the items already mentioned.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      },
+      {
+        "w": "approximately",
+        "p": "",
+        "zh": "Close to a stated amount, but not exact.",
+        "en": "Close to a stated amount, but not exact.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      },
+      {
+        "w": "whereas",
+        "p": "",
+        "zh": "Used to introduce a difference between two facts.",
+        "en": "Used to introduce a difference between two facts.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      },
+      {
+        "w": "by contrast",
+        "p": "",
+        "zh": "Used to emphasize a difference from the preceding point.",
+        "en": "Used to emphasize a difference from the preceding point.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      },
+      {
+        "w": "account for",
+        "p": "",
+        "zh": "To make up a stated share of a total.",
+        "en": "To make up a stated share of a total.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      },
+      {
+        "w": "steady increase",
+        "p": "",
+        "zh": "A rise that continues at a fairly even rate.",
+        "en": "A rise that continues at a fairly even rate.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      },
+      {
+        "w": "overall trend",
+        "p": "",
+        "zh": "The broad direction of change across a period.",
+        "en": "The broad direction of change across a period.",
+        "s": 3,
+        "d": 5,
+        "src": "IELTS · Topics & Writing",
+        "topic": "Data & comparisons"
+      }
+    ]
+  },
+  {
+    "id": "business",
+    "name": "Business · Workplace Essentials",
+    "description": "40 original words for meetings, projects, finance, and professional communication.",
+    "license": "CC BY 4.0",
+    "credit": "Original selection and definitions by Vocab Adventure (2026).",
+    "source": "https://github.com/yangsy57272/vocab-adventure",
+    "words": [
+      {
+        "w": "agenda",
+        "p": "",
+        "zh": "A list of items to discuss at a meeting.",
+        "en": "A list of items to discuss at a meeting.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "minutes",
+        "p": "",
+        "zh": "The written record of a meeting.",
+        "en": "The written record of a meeting.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "stakeholder",
+        "p": "",
+        "zh": "A person or group affected by a decision or project.",
+        "en": "A person or group affected by a decision or project.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "consensus",
+        "p": "",
+        "zh": "General agreement within a group.",
+        "en": "General agreement within a group.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "proposal",
+        "p": "",
+        "zh": "A suggested plan offered for consideration.",
+        "en": "A suggested plan offered for consideration.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "negotiation",
+        "p": "",
+        "zh": "Discussion intended to reach an agreement.",
+        "en": "Discussion intended to reach an agreement.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "feedback",
+        "p": "",
+        "zh": "Information about performance intended to guide improvement.",
+        "en": "Information about performance intended to guide improvement.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "action item",
+        "p": "",
+        "zh": "A specific task assigned after a discussion.",
+        "en": "A specific task assigned after a discussion.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "follow up",
+        "p": "",
+        "zh": "To take further action after an earlier contact or event.",
+        "en": "To take further action after an earlier contact or event.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "clarify",
+        "p": "",
+        "zh": "To make something easier to understand.",
+        "en": "To make something easier to understand.",
+        "s": 3,
+        "d": 1,
+        "src": "Business · Workplace Essentials",
+        "topic": "Meetings"
+      },
+      {
+        "w": "deadline",
+        "p": "",
+        "zh": "The latest time by which something must be finished.",
+        "en": "The latest time by which something must be finished.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "milestone",
+        "p": "",
+        "zh": "An important checkpoint in a project.",
+        "en": "An important checkpoint in a project.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "deliverable",
+        "p": "",
+        "zh": "A specific result that a project must produce.",
+        "en": "A specific result that a project must produce.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "scope",
+        "p": "",
+        "zh": "The agreed boundaries of a project's work.",
+        "en": "The agreed boundaries of a project's work.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "dependency",
+        "p": "",
+        "zh": "A task or condition that another task relies on.",
+        "en": "A task or condition that another task relies on.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "prioritize",
+        "p": "",
+        "zh": "To decide which tasks should receive attention first.",
+        "en": "To decide which tasks should receive attention first.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "allocate",
+        "p": "",
+        "zh": "To assign resources to a purpose.",
+        "en": "To assign resources to a purpose.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "capacity",
+        "p": "",
+        "zh": "The amount of work a person or system can handle.",
+        "en": "The amount of work a person or system can handle.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "bottleneck",
+        "p": "",
+        "zh": "A constraint that slows the whole process.",
+        "en": "A constraint that slows the whole process.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "contingency",
+        "p": "",
+        "zh": "A possible event for which an alternative plan is prepared.",
+        "en": "A possible event for which an alternative plan is prepared.",
+        "s": 3,
+        "d": 2,
+        "src": "Business · Workplace Essentials",
+        "topic": "Projects"
+      },
+      {
+        "w": "revenue",
+        "p": "",
+        "zh": "Money received from selling goods or services before costs are deducted.",
+        "en": "Money received from selling goods or services before costs are deducted.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "profit",
+        "p": "",
+        "zh": "Money remaining after relevant costs are deducted from revenue.",
+        "en": "Money remaining after relevant costs are deducted from revenue.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "cash flow",
+        "p": "",
+        "zh": "The movement of money into and out of an organization.",
+        "en": "The movement of money into and out of an organization.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "budget",
+        "p": "",
+        "zh": "A plan for income and spending.",
+        "en": "A plan for income and spending.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "forecast",
+        "p": "",
+        "zh": "An estimate of future conditions or results.",
+        "en": "An estimate of future conditions or results.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "invoice",
+        "p": "",
+        "zh": "A document requesting payment for goods or services.",
+        "en": "A document requesting payment for goods or services.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "expense",
+        "p": "",
+        "zh": "A cost incurred in carrying out an activity.",
+        "en": "A cost incurred in carrying out an activity.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "margin",
+        "p": "",
+        "zh": "Profit expressed in relation to sales, often as a percentage.",
+        "en": "Profit expressed in relation to sales, often as a percentage.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "procurement",
+        "p": "",
+        "zh": "The process of obtaining goods or services for an organization.",
+        "en": "The process of obtaining goods or services for an organization.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "reimbursement",
+        "p": "",
+        "zh": "Repayment of money someone has spent on another's behalf.",
+        "en": "Repayment of money someone has spent on another's behalf.",
+        "s": 3,
+        "d": 3,
+        "src": "Business · Workplace Essentials",
+        "topic": "Finance"
+      },
+      {
+        "w": "onboarding",
+        "p": "",
+        "zh": "Helping a new employee or customer get started.",
+        "en": "Helping a new employee or customer get started.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      },
+      {
+        "w": "probation",
+        "p": "",
+        "zh": "An initial period used to assess suitability for a role.",
+        "en": "An initial period used to assess suitability for a role.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      },
+      {
+        "w": "appraisal",
+        "p": "",
+        "zh": "A formal review of someone's work performance.",
+        "en": "A formal review of someone's work performance.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      },
+      {
+        "w": "benefits",
+        "p": "",
+        "zh": "Non-wage rewards provided as part of employment.",
+        "en": "Non-wage rewards provided as part of employment.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      },
+      {
+        "w": "compliance",
+        "p": "",
+        "zh": "Acting in accordance with applicable rules or requirements.",
+        "en": "Acting in accordance with applicable rules or requirements.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      },
+      {
+        "w": "confidential",
+        "p": "",
+        "zh": "Intended to be shared only with authorized people.",
+        "en": "Intended to be shared only with authorized people.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      },
+      {
+        "w": "delegate",
+        "p": "",
+        "zh": "To assign responsibility for a task to another person.",
+        "en": "To assign responsibility for a task to another person.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      },
+      {
+        "w": "collaboration",
+        "p": "",
+        "zh": "Working with others toward a shared result.",
+        "en": "Working with others toward a shared result.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      },
+      {
+        "w": "retention",
+        "p": "",
+        "zh": "Keeping employees, customers, or information over time.",
+        "en": "Keeping employees, customers, or information over time.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      },
+      {
+        "w": "resignation",
+        "p": "",
+        "zh": "Formal notice that someone is leaving a job.",
+        "en": "Formal notice that someone is leaving a job.",
+        "s": 3,
+        "d": 4,
+        "src": "Business · Workplace Essentials",
+        "topic": "People & work"
+      }
+    ]
+  },
+  {
+    "id": "everyday",
+    "name": "Everyday · Travel & Conversation",
+    "description": "40 original practical words and phrases for travel, shopping, and daily situations.",
+    "license": "CC BY 4.0",
+    "credit": "Original selection and definitions by Vocab Adventure (2026).",
+    "source": "https://github.com/yangsy57272/vocab-adventure",
+    "words": [
+      {
+        "w": "itinerary",
+        "p": "",
+        "zh": "A plan showing the stages of a journey.",
+        "en": "A plan showing the stages of a journey.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "reservation",
+        "p": "",
+        "zh": "An arrangement to keep a place or service for later use.",
+        "en": "An arrangement to keep a place or service for later use.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "boarding pass",
+        "p": "",
+        "zh": "A document allowing a passenger to board a flight.",
+        "en": "A document allowing a passenger to board a flight.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "layover",
+        "p": "",
+        "zh": "A stop between parts of a journey.",
+        "en": "A stop between parts of a journey.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "baggage claim",
+        "p": "",
+        "zh": "The area where arriving passengers collect checked luggage.",
+        "en": "The area where arriving passengers collect checked luggage.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "departure",
+        "p": "",
+        "zh": "The act or scheduled time of leaving.",
+        "en": "The act or scheduled time of leaving.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "arrival",
+        "p": "",
+        "zh": "The act or scheduled time of reaching a destination.",
+        "en": "The act or scheduled time of reaching a destination.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "platform",
+        "p": "",
+        "zh": "The area beside railway tracks where passengers board trains.",
+        "en": "The area beside railway tracks where passengers board trains.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "round trip",
+        "p": "",
+        "zh": "A journey to a destination and back again.",
+        "en": "A journey to a destination and back again.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "fare",
+        "p": "",
+        "zh": "The price paid for a journey on public transport.",
+        "en": "The price paid for a journey on public transport.",
+        "s": 3,
+        "d": 1,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Getting around"
+      },
+      {
+        "w": "accommodation",
+        "p": "",
+        "zh": "A place to stay temporarily.",
+        "en": "A place to stay temporarily.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "check in",
+        "p": "",
+        "zh": "To register your arrival at a hotel or airport.",
+        "en": "To register your arrival at a hotel or airport.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "check out",
+        "p": "",
+        "zh": "To complete departure arrangements at a hotel.",
+        "en": "To complete departure arrangements at a hotel.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "reception",
+        "p": "",
+        "zh": "The desk or area where visitors are welcomed and assisted.",
+        "en": "The desk or area where visitors are welcomed and assisted.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "vacancy",
+        "p": "",
+        "zh": "An available room or unfilled position.",
+        "en": "An available room or unfilled position.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "amenities",
+        "p": "",
+        "zh": "Useful facilities provided for comfort or convenience.",
+        "en": "Useful facilities provided for comfort or convenience.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "deposit",
+        "p": "",
+        "zh": "Money paid in advance as security or part payment.",
+        "en": "Money paid in advance as security or part payment.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "refund",
+        "p": "",
+        "zh": "Money returned after a payment.",
+        "en": "Money returned after a payment.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "receipt",
+        "p": "",
+        "zh": "A record showing that payment was made.",
+        "en": "A record showing that payment was made.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "exchange rate",
+        "p": "",
+        "zh": "The value of one currency measured in another.",
+        "en": "The value of one currency measured in another.",
+        "s": 3,
+        "d": 2,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Staying & shopping"
+      },
+      {
+        "w": "appointment",
+        "p": "",
+        "zh": "An arrangement to meet someone at a particular time.",
+        "en": "An arrangement to meet someone at a particular time.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "prescription",
+        "p": "",
+        "zh": "An instruction from a qualified clinician for medicine or treatment.",
+        "en": "An instruction from a qualified clinician for medicine or treatment.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "pharmacy",
+        "p": "",
+        "zh": "A place where medicines are prepared or supplied.",
+        "en": "A place where medicines are prepared or supplied.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "allergy",
+        "p": "",
+        "zh": "An immune reaction to a substance that is usually harmless.",
+        "en": "An immune reaction to a substance that is usually harmless.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "symptom",
+        "p": "",
+        "zh": "A change someone experiences that may indicate illness.",
+        "en": "A change someone experiences that may indicate illness.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "emergency",
+        "p": "",
+        "zh": "A serious situation requiring immediate action.",
+        "en": "A serious situation requiring immediate action.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "insurance",
+        "p": "",
+        "zh": "An arrangement providing financial protection against specified risks.",
+        "en": "An arrangement providing financial protection against specified risks.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "contact details",
+        "p": "",
+        "zh": "Information used to reach a person or organization.",
+        "en": "Information used to reach a person or organization.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "opening hours",
+        "p": "",
+        "zh": "The times when a place is available to customers.",
+        "en": "The times when a place is available to customers.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "availability",
+        "p": "",
+        "zh": "Whether and when something can be obtained or used.",
+        "en": "Whether and when something can be obtained or used.",
+        "s": 3,
+        "d": 3,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Daily needs"
+      },
+      {
+        "w": "recommendation",
+        "p": "",
+        "zh": "A suggestion that something would be suitable or useful.",
+        "en": "A suggestion that something would be suitable or useful.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      },
+      {
+        "w": "preference",
+        "p": "",
+        "zh": "A choice someone favors over another.",
+        "en": "A choice someone favors over another.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      },
+      {
+        "w": "apologize",
+        "p": "",
+        "zh": "To express regret for a mistake or harm.",
+        "en": "To express regret for a mistake or harm.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      },
+      {
+        "w": "appreciate",
+        "p": "",
+        "zh": "To recognize the value of something or feel grateful for it.",
+        "en": "To recognize the value of something or feel grateful for it.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      },
+      {
+        "w": "permission",
+        "p": "",
+        "zh": "Consent that allows someone to do something.",
+        "en": "Consent that allows someone to do something.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      },
+      {
+        "w": "invitation",
+        "p": "",
+        "zh": "A request for someone to attend or take part.",
+        "en": "A request for someone to attend or take part.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      },
+      {
+        "w": "directions",
+        "p": "",
+        "zh": "Instructions explaining how to reach a place.",
+        "en": "Instructions explaining how to reach a place.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      },
+      {
+        "w": "nearby",
+        "p": "",
+        "zh": "Not far away.",
+        "en": "Not far away.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      },
+      {
+        "w": "convenient",
+        "p": "",
+        "zh": "Suitable and easy to use in a particular situation.",
+        "en": "Suitable and easy to use in a particular situation.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      },
+      {
+        "w": "keep in touch",
+        "p": "",
+        "zh": "To continue communicating with someone.",
+        "en": "To continue communicating with someone.",
+        "s": 3,
+        "d": 4,
+        "src": "Everyday · Travel & Conversation",
+        "topic": "Conversation"
+      }
+    ]
+  }
+]
